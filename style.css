@@ -13,17 +13,17 @@
 
 /* default card sizes */
 .box {
-  border: 2px solid blue;
+  border: 1px solid blue;
 }
 
 #country {
-  width: 30% !important;
+  width: 30%;
 }
 #weather {
-  width: 25% !important;
+  width: 30%;
 }
 #currency {
-  width: auto !important;
+  width: auto;
 }
 
 @media screen and (max-width: 575px) {
@@ -33,32 +33,32 @@
     flex-wrap: wrap;
   }
   .box {
-    border: 2px solid red;
+    border: 1px solid red;
     margin-bottom: 0.5em;
   }
   #country {
-    width: 98% !important;
+    width: 100%;
   }
   #weather {
-    width: 98% !important;
+    width: 100%;
   }
   #currency {
-    width: 98% !important;
+    width: 100%;
   }
 }
 
-@media screen and (min-width: 576px) and (max-width: 756px) {
+@media screen and (min-width: 576px) and (max-width: 802px) {
   .box {
-    border: 2px solid green !important;
+    border: 1px solid green;
     margin-bottom: 0.5em;
   }
   #country {
-    width: 48% !important;
+    width: 50%;
   }
   #weather {
-    width: 48% !important;
+    width: 50%;
   }
   #currency {
-    width: 98% !important;
+    width: 100%;
   }
 }
