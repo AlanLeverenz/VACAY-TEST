@@ -4,9 +4,12 @@
   margin: 0 auto;
 }
 
-/* .card {
-    border: 1pt solid blue;
-  } */
+.container-flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
 
 /* .container-flex {
   display: flex;
@@ -19,22 +22,22 @@
   border: 2px solid blue;
 }
 
-/* #country {
-  width: 100% !important;
+#country {
+  width: 30% !important;
 }
 #weather {
-  width: auto !important;
+  width: 25% !important;
 }
 #currency {
   width: auto !important;
-} */
+}
 
 @media screen and (max-width: 575px) {
-  /* .container-flex {
+  .container-flex {
     flex-direction: vertical;
     justify-content: space-between;
     flex-wrap: wrap;
-  } */
+  }
   .box {
     border: 2px solid red;
   }
