@@ -11,13 +11,7 @@
   justify-content: space-around;
 }
 
-/* .container-flex {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-} */
-
+/* default card sizes */
 .box {
   border: 2px solid blue;
 }
@@ -40,25 +34,31 @@
   }
   .box {
     border: 2px solid red;
+    margin-bottom: 0.5em;
+  }
+  #country {
+    width: 98% !important;
+  }
+  #weather {
+    width: 98% !important;
+  }
+  #currency {
+    width: 98% !important;
   }
 }
 
 @media screen and (min-width: 576px) and (max-width: 756px) {
-  /* .container-flex {
-    flex-direction: vertical;
-    justify-content: space-between;
-    flex-wrap: wrap;
-  } */
   .box {
     border: 2px solid green !important;
+    margin-bottom: 0.5em;
   }
-  /* #country {
-    width: 50% !important;
+  #country {
+    width: 48% !important;
   }
   #weather {
-    width: 40% !important;
+    width: 48% !important;
   }
   #currency {
-    width: 100% !important;
-  } */
+    width: 98% !important;
+  }
 }
